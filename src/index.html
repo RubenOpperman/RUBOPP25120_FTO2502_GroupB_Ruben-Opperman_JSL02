@@ -6,7 +6,7 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="/assets/favicon.svg"
+      href="./assets/favicon.svg"
     />
     <link href="./output.css" rel="stylesheet" />
 
@@ -18,7 +18,7 @@
   >
     <!-- Navigation Sidebar: Contains the logo, navigation links for boards, and theme toggle. -->
     <nav
-      class="hidden md:block md:row-start-1 md:row-end-3 md:col-start-1 md:col-end-2 border-r-[#E4EBFA] border-r-1"
+      class="hidden md:block md:row-start-1 md:row-end-3 md:col-start-1 md:col-end-2 bg-primary-color border-r-[#E4EBFA] border-r-1"
     >
       <img
         src="/assets/logo-light.svg"
@@ -27,12 +27,12 @@
       />
       <div>
         <h4
-          class="text-xs text-label font-bold pl-8 mb-5 tracking-[2.4px] leading-[19px]"
+          class="text-xs text-secondary-font-color font-bold pl-8 mb-5 tracking-[2.4px] leading-[19px]"
         >
           ALL BOARDS (1)
         </h4>
         <button
-          class="py-4 bg-button lg:w-[270px] md:w-[180] rounded-br-[100px] rounded-tr-[100px] text-white text-sm font-bold hover:bg-[#A8A4FF] leading-[19px]"
+          class="py-4 bg-[#635fc7] lg:w-[270px] md:w-[180] rounded-br-[100px] rounded-tr-[100px] text-primary-color text-sm font-bold hover:bg-[#A8A4FF] leading-[19px]"
         >
           Launch Career
         </button>
@@ -42,7 +42,7 @@
     <!-- Main Layout: Header with board title, add task button, and main content area for task columns. -->
     <div class="md:col-start-2 md:col-end-3 md:row-start-1 md:row-end-3">
       <header
-        class="bg-white font-bold max-w-full border-b-[#E4EBFA] border-b-1"
+        class="bg-primary-color font-bold max-w-full border-b-[#E4EBFA] border-b-1"
         s
       >
         <div class="flex items-center">
@@ -52,7 +52,7 @@
             class="md:hidden block w-9 h-auto pl-4"
           />
           <h2
-            class="text-lg md:text-2xl md:pt-8 md:pb-9 pl-4 py-5 md:pl-6 text-dark leading-[30px]"
+            class="text-lg md:text-2xl md:pt-8 md:pb-9 pl-4 py-5 md:pl-6 text-primary-font-color leading-[30px]"
           >
             Launch Career
           </h2>
@@ -60,7 +60,7 @@
       </header>
 
       <div
-        class="bg-board flex justify-center md:justify-start h-full md:pl-6 md:pt-6"
+        class="bg-secondary-color flex justify-center md:justify-start h-full md:pl-6 md:pt-6"
       >
         <main class="flex flex-col md:flex-row">
           <!-- Task Columns: Display tasks grouped by status (TODO, DOING, DONE). -->
@@ -68,7 +68,7 @@
             <div class="flex py-7.5 md:pt-0">
               <span class="rounded-full w-4 h-4 bg-[#49C4E5] mr-3"></span>
               <h4
-                class="text-label font-bold text-xs tracking-[2.4px] leading-[19px]"
+                class="text-secondary-font-color font-bold text-xs tracking-[2.4px] leading-[19px]"
               >
                 TODO (4)
               </h4>
@@ -76,22 +76,22 @@
             <!-- Tasks container for TODO -->
             <div class="w-[75vw] md:w-auto">
               <div
-                class="bg-white text-dark leading-[19px] text-sm font-bold mb-5 py-5 pl-5 rounded-md shadow-lg"
+                class="bg-primary-color text-primary-font-color leading-[19px] text-sm font-bold mb-5 py-5 pl-5 rounded-md shadow-lg"
               >
                 Launch Epic Career 🚀
               </div>
               <div
-                class="bg-white text-dark leading-[19px] text-sm font-bold mb-5 py-5 pl-5 rounded-md shadow-lg"
+                class="bg-primary-color text-primary-font-color leading-[19px] text-sm font-bold mb-5 py-5 pl-5 rounded-md shadow-lg"
               >
                 Conquer React ⚛️
               </div>
               <div
-                class="bg-white text-dark leading-[19px] text-sm font-bold py-5 mb-5 pl-5 rounded-md shadow-lg"
+                class="bg-primary-color text-primary-font-color leading-[19px] text-sm font-bold py-5 mb-5 pl-5 rounded-md shadow-lg"
               >
                 Understand Databases ⚙️
               </div>
               <div
-                class="bg-white text-dark leading-[19px] text-sm font-bold py-5 pl-5 rounded-md shadow-lg"
+                class="bg-primary-color text-primary-font-color leading-[19px] text-sm font-bold py-5 pl-5 rounded-md shadow-lg"
               >
                 Crush Frameworks 🖼️
               </div>
@@ -102,7 +102,7 @@
             <div class="flex py-7.5 md:pt-0">
               <span class="rounded-full w-4 h-4 bg-[#8471F2] mr-3"></span>
               <h4
-                class="text-label font-bold text-xs tracking-[2.4px] leading-[19px]"
+                class="text-secondary-font-color font-bold text-xs tracking-[2.4px] leading-[19px]"
               >
                 DOING (2)
               </h4>
@@ -110,12 +110,12 @@
             <!-- Tasks container for DOING -->
             <div class="w-[75vw] md:w-auto">
               <div
-                class="bg-white text-dark leading-[19px] text-sm font-bold mb-5 py-5 pl-5 rounded-md shadow-lg"
+                class="bg-primary-color text-primary-font-color leading-[19px] text-sm font-bold mb-5 py-5 pl-5 rounded-md shadow-lg"
               >
                 Master JavaScript 💛
               </div>
               <div
-                class="bg-white text-dark leading-[19px] text-sm font-bold py-5 pl-5 rounded-md shadow-lg"
+                class="bg-primary-color text-primary-font-color leading-[19px] text-sm font-bold py-5 pl-5 rounded-md shadow-lg"
               >
                 Never Give Up 🏆
               </div>
@@ -126,7 +126,7 @@
             <div class="flex py-7.5 md:pt-0">
               <span class="rounded-full w-4 h-4 bg-[#67E2AE] mr-3"></span>
               <h4
-                class="text-label font-bold text-xs tracking-[2.4px] leading-[19px]"
+                class="text-secondary-font-color font-bold text-xs tracking-[2.4px] leading-[19px]"
               >
                 DONE (2)
               </h4>
@@ -134,12 +134,12 @@
             <!-- Tasks container for DONE -->
             <div class="w-[75vw] md:w-auto">
               <div
-                class="bg-white text-dark leading-[19px] text-sm font-bold mb-5 py-5 pl-5 rounded-md shadow-lg"
+                class="bg-primary-color text-primary-font-color leading-[19px] text-sm font-bold mb-5 py-5 pl-5 rounded-md shadow-lg"
               >
                 Explore ES6 Features 🚀
               </div>
               <div
-                class="bg-white text-dark leading-[19px] text-sm font-bold mb-5 py-5 pl-5 rounded-md shadow-lg"
+                class="bg-primary-color text-primary-font-color leading-[19px] text-sm font-bold mb-5 py-5 pl-5 rounded-md shadow-lg"
               >
                 Have fun 🥳
               </div>
